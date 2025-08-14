@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atalhos Google</title>
+<style>
+  :root {
+    --bg-light: #f5f5f5;
+    --bg-dark: #121212;
+    --text-light: #000;
+    --text-dark: #fff;
+    --blue: #4285F4;
+    --green: #34A853;
+    --yellow: #FABB05;
+    --red: #EA4335;
+    --purple: #8E24AA;
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-dark);
+    }
+    .card {
+      background: #1e1e1e;
+    }
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg-light);
+    color: var(--text-light);
+    text-align: center;
+  }
+  header {
+    background-color: var(--blue);
+    color: white;
+    padding: 20px;
+    font-size: 1.8em;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    gap: 15px;
+  }
+  a.button {
+    display: block;
+    width: 200px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: transform 0.2s;
+  }
+  a.button:hover {
+    transform: scale(1.05);
+  }
+  .docs { background: var(--blue); }
+  .sheets { background: var(--green); }
+  .slides { background: var(--yellow); color: black; }
+  .forms { background: var(--red); }
+  .keep { background: var(--purple); }
+
+  .instrucoes {
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: left;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  @media (prefers-color-scheme: dark) {
+    .instrucoes {
+      background: #1e1e1e;
+      box-shadow: none;
+    }
+  }
+  footer {
+    margin: 20px;
+    font-size: 0.9em;
+    color: gray;
+  }
+</style>
+</head>
+<body>
+<header>📄 Atalhos Google</header>
+
+<div class="container">
+  <a class="button docs" href="https://docs.new" target="_blank">Google Docs</a>
+  <a class="button sheets" href="https://sheets.new" target="_blank">Google Planilhas</a>
+  <a class="button slides" href="https://slides.new" target="_blank">Google Apresentações</a>
+  <a class="button forms" href="https://forms.new" target="_blank">Google Formulários</a>
+  <a class="button keep" href="https://keep.new" target="_blank">Google Keep</a>
+</div>
+
+<div class="instrucoes">
+  <h2>📌 Instruções de Uso</h2>
+  <ul>
+    <li>Clique no botão desejado para abrir ou criar um novo arquivo.</li>
+    <li>Faça login na sua conta Google se solicitado.</li>
+    <li>O arquivo será salvo automaticamente no Google Drive.</li>
+    <li>Para renomear, clique no título no canto superior.</li>
+    <li>Use os atalhos de teclado do Google para maior produtividade.</li>
+  </ul>
+</div>
+
+<footer>🚀 Feito para facilitar sua produtividade</footer>
+</body>
+</html>
